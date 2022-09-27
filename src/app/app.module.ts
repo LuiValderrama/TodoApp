@@ -12,7 +12,7 @@ import { TodocardComponent } from './todocard/todocard.component';
     AppComponent,
     HeaderComponent,
     SidelbarComponent,
-    TodocardComponent
+    TodocardComponent,
   ],
   imports: [
     BrowserModule,
