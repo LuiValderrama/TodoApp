@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, ElementRef, AfterContentInit, OnChanges,SimpleChanges, SimpleChange, HostListener} from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 
 
 
@@ -10,8 +10,8 @@ interface Task{
 
 @Component({
   selector: 'app-todo-card',
-  templateUrl: './todo-card.component.html',
-  styleUrls: ['./todo-card.component.scss']
+  templateUrl: './todocard.component.html',
+  styleUrls: ['./todocard.component.scss']
 })
 export class TodoCardComponent implements OnInit {
 
